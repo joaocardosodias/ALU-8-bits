@@ -1,16 +1,25 @@
-# ALU-8-bits
+# CPU & ALU 8-bits
 
-Uma Unidade Lógica e Aritmética (ULA / ALU) de 8 bits desenvolvida no software [Digital](https://github.com/hneemann/Digital). 
+Uma Unidade Central de Processamento (CPU) e Unidade Lógica e Aritmética (ULA / ALU) de 8 bits desenvolvida no software [Digital](https://github.com/hneemann/Digital). 
 
-O projeto consiste na implementação de uma ULA completa, utilizando circuitos combinacionais e sequenciais para realizar diversas operações matemáticas e lógicas nativamente com palavras de 8 bits.
+O projeto consiste na implementação de uma arquitetura computacional completa, partindo de uma ULA modularizada até a construção de uma CPU funcional, utilizando circuitos combinacionais e sequenciais.
 
 ## Demonstração em Vídeo
 
-[Demonstração da ALU 8-bits](https://www.youtube.com/watch?v=E_-aaRJddRo)
+- [Construção da ALU 8-bits](https://www.youtube.com/watch?v=E_-aaRJddRo)
+- [CPU de 8 bits e Arquitetura](https://youtu.be/6Q5b-3ydh-A)
 
 ## Ferramentas Utilizadas
 
 - **[Digital](https://github.com/hneemann/Digital)**: Software de simulação de circuitos lógicos digitais, utilizado para desenhar, testar e validar o funcionamento de toda a arquitetura.
+
+## Arquitetura da CPU
+
+Além da ULA, o projeto evoluiu para a implementação de CPUs de 8 bits com diferentes níveis de complexidade:
+
+- **CPU 8-bits (`CPU8bits.dig`)**: Versão inicial da CPU integrando a ALU e registradores.
+- **CPU 8-bits HARDCORE (`CPU8bitsHARDCORE.dig`)**: Versão avançada com controle refinado e maior capacidade de processamento.
+- **CPU 8-bits HARDCORE Bus (`CPU8bitsHARDCOREbus.dig`)**: Implementação baseada em barramento (bus) para uma comunicação mais eficiente entre os componentes internos.
 
 ## Componentes e Operações
 
